@@ -1,0 +1,19 @@
+#tooltip {
+  position: absolute;
+  padding: 5px;
+  background: #fff;
+  border: solid gray 1px;
+  z-index: 1;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+text {
+  font-size: 14px;
+}
+
+#y-axis .tick line {
+  display: none;
+}
